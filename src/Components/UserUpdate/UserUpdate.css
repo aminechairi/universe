@@ -1,0 +1,69 @@
+/* UserUpdate */
+.ab_update .ctn {
+  margin: 0px;
+  width: 100%;
+  padding: 0px 20px;
+}
+.ab_update .ctn form {
+  padding-top: 0px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  height: fit-content;
+  position: relative;
+  color: var(--color-texts);
+  padding-top: 40px;
+}
+.ab_update .ctn form .alert {
+  font-size: 18px;
+  background-color: rgb(255, 206, 206);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.ab_update .ctn form .requ {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255 / 49%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ab_update .ctn form label {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 10px 0px;
+}
+.ab_update .ctn form input {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  outline: 1px solid rgba(0, 0, 0, 0.432);
+  color: var(--color-texts);
+}
+.ab_update .ctn form input:focus {
+  border: none;
+  outline: none;
+  outline: 2px solid var(--color-1);
+}
+.ab_update .ctn form button {
+  font-size: 22px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--color-1);
+  color: #fff;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.ab_update .ctn form button:focus {
+  outline: none;
+  border: none;
+}
+.ab_update .ctn form .alerts {
+  color: red;
+}
+/* UserUpdate */

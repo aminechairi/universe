@@ -1,0 +1,29 @@
+/* error */
+.error {
+  width: 100%;
+  height: 100%;
+  background-color:var(--color-b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+.error h1 {
+  color: var(--color-1);
+  margin-bottom: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+.error button {
+  margin-bottom: 10px;
+  color: blue;
+  transition: all 0.3;
+  font-size: 22px;
+}
+.error button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: center;
+}
+/* error */

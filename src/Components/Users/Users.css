@@ -1,0 +1,68 @@
+/* Users */
+.ab_users {
+  padding: 10px;
+  overflow: auto;
+  width: 100%;
+}
+.ab_users::-webkit-scrollbar {
+  display: none;
+}
+.ab_users .table {
+  width: 100%;
+}
+.ab_users .table {
+  border: 2px solid var(--color-1);
+  border-bottom: none;
+  border-collapse: collapse;
+}
+.ab_users .table .thead .titles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  background-color: var(--color-1);
+  column-gap: 2px;
+  padding-bottom: 2px;
+}
+.ab_users .table .thead .titles td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.ab_users .table .tbody .data {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  background-color: var(--color-1);
+  column-gap: 2px;
+}
+.ab_users .table .tbody .data td {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  color: var(--color-texts);
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--color-1);
+}
+.ab_users .table .tbody .data .actions {
+  display: flex;
+  justify-content: center;
+  column-gap: 6px;
+  justify-content: space-evenly;
+}
+.ab_users .table .tbody .data .actions .e {
+  color: green;
+  cursor: pointer;
+}
+.ab_users .table .tbody .data .actions .d {
+  color: red;
+  cursor: pointer;
+}
+/* Users */

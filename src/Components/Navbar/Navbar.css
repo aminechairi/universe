@@ -1,0 +1,39 @@
+/* menu */
+.nav {
+  box-shadow: 2px 2px 15px rgb(216, 216, 216);
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.nav .ctn {
+  display: flex;
+}
+.nav .ctn .logo {
+  font-size: 26px;
+  font-weight: 600;
+  height: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-1);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav .ctn .menu {
+  display: flex;
+  justify-content: center;
+}
+.nav .ctn .menu button {
+  font-size: 18px;
+  height: 100%;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: var(--color-texts);
+}
+.nav .ctn .menu button:hover {
+  color: var(--color-1);
+  background-color: rgba(61, 106, 255, 0.075);
+}
+/* menu */

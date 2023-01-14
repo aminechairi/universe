@@ -1,0 +1,14 @@
+/* NoFound */
+.ab {
+  width: 100%;
+  height: calc(100vh - 93px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ab h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: red;
+}
+/* NoFound */
